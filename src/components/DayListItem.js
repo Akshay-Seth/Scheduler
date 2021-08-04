@@ -1,4 +1,3 @@
-import { prop } from "ramda";
 import React from "react";
 import "./DayListItem.scss";
 var classNames = require('classnames');
