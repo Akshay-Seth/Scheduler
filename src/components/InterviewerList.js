@@ -1,7 +1,7 @@
 import React from "react";
-import InterviewerListItem from "components/InterviewerListItem";
-import "components/InterviewerList.scss";
-import "components/InterviewerListItem.scss";
+import InterviewerListItem from "InterviewerListItem";
+import "InterviewerList.scss";
+import "InterviewerListItem.scss";
 
 import PropTypes from "prop-types";
 
