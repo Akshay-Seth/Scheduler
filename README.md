@@ -45,46 +45,6 @@ npm test
 npm run storybook
 ```
 
-## Final Product
-
-### Main Page
-
-This is the main page--obviously the only page since this is a single React web application. It lists up to five appointments per day. There's a dynamic counter for the remaining spots.
-
-!["opening page"](docs/scheduler_mainpage.png)
-
-### Deleting A New Appointment
-
-Allows the deletion of an appointment, by confirming the action with the user.
-
-!["deleting a new appointment"](docs/scheduler_delete.png)
-
-
-### Error Handling
-
-Displays error in case of an getting an HTTP request from the scheduler-API.
-
-!["error handling"](docs/scheduler_delete_error.png)
-
-### Storybook Component Tests
-
-Implemented [storybook](https://storybook.js.org/) to run component UI tests. 
-This allowed to ensure interface identity and consistency throughout the development.
-
-!["storybook tests"](docs/scheduler_storybook.png)
-
-### Cypress End-To-End Tests
-
-Implemented [cypress](https://www.cypress.io/) to create end to end tests.
-
-!["cypress tests"](docs/scheduler_cypress.png)
-
-### Jest Unit Tests
-
-Built-in [jest](https://jestjs.io/) test coverage.
-
-!["jest tests"](docs/scheduler_jest_testcoverage.png)
-
 ## Dependencies
 
 - Axios
